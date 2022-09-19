@@ -1,0 +1,29 @@
+September 19th, 2022
+
+* Ran into Core Lightning flakiness issues on Mac tests
+* figured I’d rebase to see if that magically fixed things for me before getting too deep
+* found overlap issues with funding_locked & splice_locked
+    * 0-conf changed funding_locked a *lot*
+    * got post-rebase splice code compiling
+    * had low confidence splice_lock’ing would work after rebase
+    * tried diagnosing those problems
+* Got WIRE_TEMPORARY_CHANNEL_FAILURE a bunch
+    * in diving into what could be causing that
+    * decided to clean my givens and do some tests on raw master
+    * this began my side quest
+* side quest: on my Mac WIRE_TEMPORARY_CHANNEL_FAILURE issue was pretty frequent on master tip
+    * decide to dive into why that was happening
+    * explored a ton of things that weren’t the problem
+        * learned a ton about the new connect flow
+        * learned a ton about the node <-> node channel socket initiation flow
+        * learned a ton about inter-daemon communication
+    * did a lot of digging into things that weren’t the problem — but learned a lot about the code base!
+    * it appears my issue was inter-daemon fd/socket management!
+    * once I understood the issue (a week later lol) found a one liner that fixed it!
+        * PR’ed the one line fix
+* Now its reliable on my machine!
+
+Upcoming work:
+
+* Now I’m back to finishing the splice rebase, so that’s exciting
+* Going to go clean up my pending PRs this week too
