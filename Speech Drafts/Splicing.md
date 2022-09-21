@@ -1,5 +1,6 @@
 # Lightning Splicing Talk
 
+## Lightning Spiderweb
 * Lightning is a spiderweb of individual strands that form a large mesh, allowing you to move anywhere on the spiderweb.
 * Zoom into one strand of the lightning spiderweb and you see a contract
     * This contract is an agreement between two people saying how much bitcoin they are owed.
@@ -12,7 +13,7 @@
 * This process of contract usurping can repeat an unlimited amount of times.
 * Each time the contract is usurped, a new payment occurs! This is how we get the insane scalability properties of lightning.
 
-## Contract enforcement.
+## Contract enforcement
 * Consider for a moment how many contracts are probably signed in the United States per day. It’s a lot, probably millions (more if you consider implied contracts).
 * There are 30,000 judges in the United States
 * Now imagine if a judge had to be present for every single contract signing for it to be considered legitimate
