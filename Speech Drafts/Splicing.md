@@ -21,7 +21,7 @@
 * By separating the moment of contract signing from when it has to be enforced, we are able to sign an order of magnitude more contracts, making US contracts scale to an entire population of 300 million people.
 * Some contracts require final settlement in a court of law but most do not.
 * We save the court of law for the small fraction of contracts that become problematic.
-* 
+___
 * Sending bitcoin without lightning is equivalent.
 * Consider for a moment how many bitcoin payments are made per day. It’s a lot, probably millions.
 * Bitcoin can process 200,000 of these payment contracts per day.
@@ -43,3 +43,7 @@
     * Splicing allows us to transfer the thickness between strands, moving it to where it’s needed most
 * It also allows us to remove some of the silk from an overly thick strand without destroying the strand.
 * Essentially it allows you the manage the silk in your lightning web however you want without chopping up the thing and destroying it
+
+## Splicing User
+* How to use splicing for fun & profit?
+* TBD
