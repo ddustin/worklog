@@ -8,3 +8,4 @@ Check out my progress by viewing these chronological posts:
 * [2022-9-19](https://github.com/ddustin/worklog/blob/main/2022-9-19.md)
 * [2022-10-3](https://github.com/ddustin/worklog/blob/main/2022-10-3.md)
 * [2022-10-17](https://github.com/ddustin/worklog/blob/main/2022-10-17.md)
+* [2022-10-31](https://github.com/ddustin/worklog/blob/main/2022-10-31.md)
