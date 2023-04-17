@@ -1,3 +1,5 @@
+## UPDATE: This project has been replaced with the [splicing website](https://lightningsplice.com/)
+
 # Worklog
 ### A repository of notes on my open source working progress updated about every two weeks.
 
